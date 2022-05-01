@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-   .text-shadow{
+@layer components {
+  .text-shadow {
     text-shadow: 2px 2px #333;
-   }
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
 }
